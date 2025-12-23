@@ -1,0 +1,159 @@
+/* User Pages General Style */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: #f0f2f5; 
+    margin: 0; 
+    padding: 20px; 
+    color: #333; 
+}
+
+.container { 
+    max-width: 600px; 
+    margin: auto; 
+}
+
+.header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+/* Earnings Cards */
+.earnings-card { 
+    background: white; 
+    padding: 20px; 
+    border-radius: 12px; 
+    margin-bottom: 15px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05); 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    border-left: 5px solid #27ae60; 
+}
+
+.order-info strong { 
+    font-size: 1.1rem; 
+    color: #2c3e50; 
+}
+
+.order-info small { 
+    color: #7f8c8d; 
+    display: block; 
+    margin-top: 5px; 
+}
+
+.profit-amt { 
+    color: #27ae60; 
+    font-weight: bold; 
+    font-size: 1.2rem; 
+}
+
+/* Buttons */
+.btn-claim { 
+    background: #27ae60; 
+    color: white; 
+    border: none; 
+    padding: 12px 20px; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    font-weight: bold; 
+    transition: 0.3s; 
+}
+
+.btn-claim:hover { 
+    background: #219150; 
+    transform: translateY(-2px); 
+}
+
+.btn-claimed { 
+    background: #dfe6e9; 
+    color: #636e72; 
+    border: none; 
+    padding: 12px 20px; 
+    border-radius: 8px; 
+    cursor: not-allowed; 
+    font-weight: bold; 
+}
+
+.back-link { 
+    text-decoration: none; 
+    color: #3498db; 
+    font-weight: bold; 
+}
+
+.expiry-text { 
+    font-size: 0.8rem; 
+    color: #e74c3c !important; 
+    font-weight: bold;
+}
+/* Table Styles for Orders */
+table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+th, td { padding: 12px; border-bottom: 1px solid #eee; text-align: left; }
+th { background: #34495e; color: white; }
+
+.status { padding: 5px 10px; border-radius: 4px; font-size: 0.85em; font-weight: bold; }
+.confirmed { background: #dff9fb; color: #0984e3; }
+.pending { background: #fff4e5; color: #d35400; }
+
+.done { color: #27ae60; font-weight: bold; font-style: italic; }
+.header-flex { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f4f7f6; padding-bottom: 10px; }
+/* Wallet Specific Styles */
+.wallet-body { text-align: center; padding: 50px; }
+.wallet-card { 
+    background: #2c3e50; 
+    color: white; 
+    padding: 40px; 
+    border-radius: 20px; 
+    width: 350px; 
+    margin: 0 auto; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
+}
+.wallet-card h1 { font-size: 45px; margin: 15px 0; color: #f1c40f; }
+.investment-item { 
+    background: white; 
+    padding: 15px; 
+    margin: 10px auto; 
+    width: 350px; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    border-left: 4px solid #f1c40f;
+    text-align: left;
+}
+/* Navigation and Container */
+.container { 
+    max-width: 500px; 
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.back-home-btn {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 0.85em;
+    padding: 6px 12px;
+    border: 1px solid #3498db;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.back-home-btn:hover {
+    background: #3498db;
+    color: white;
+}
+
+/* Scrollable Investment List */
+.investment-list {
+    max-height: 450px; /* Limits height so page doesn't scroll forever */
+    overflow-y: auto;
+    padding-right: 10px;
+    margin-top: 15px;
+}
