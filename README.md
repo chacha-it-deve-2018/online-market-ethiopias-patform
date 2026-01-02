@@ -63,4 +63,10 @@ The frontend is built to be mobile-friendly, ensuring customers can shop from an
 
 ---
 © 2026 Chalachew Belay | WSU Computing and Informatics
+
+
+--------
+
+
+
 #######http://ethio-online-market.infinityfreeapp.com
